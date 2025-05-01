@@ -4,6 +4,7 @@
 
 ```bash
 pip install boto3 python-dotenv python-dateutil
+```
 
 # Input and output file paths
 RESOURCE_COST_FILE=resource_cost.txt
@@ -25,9 +26,9 @@ Run the following command to discover active AWS resources:
 
 ```bash
 python get_active_resources.py
-
+```
 ### Step 2 : Enrich With Usernames
 
 ```bash
 python enrich_with_usernames.py
-
+```
