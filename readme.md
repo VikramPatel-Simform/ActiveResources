@@ -6,17 +6,20 @@
 pip install boto3 python-dotenv python-dateutil
 ```
 
-# Input and output file paths
+## Input and output file paths
+```
 RESOURCE_COST_FILE=resource_cost.txt
 REGIONS_FILE=regions.txt
 ACTIVE_RESOURCES_FILE=active_resources.csv
 ENRICHED_CSV=active_enriched.csv
+```
 
-
-# AWS credentials (optional if already configured via AWS CLI)
+## AWS credentials (optional if already configured via AWS CLI)
+```
 AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
 AWS_SESSION_TOKEN=your_session_token  # optional
+```
 
 ## ⚙️ How It Works
 
