@@ -1,0 +1,7 @@
+.env
+__pycache__
+active_resources.csv
+costs.csv
+filtered_costs_over_10.txt
+regions.txt
+enriched_resources.csv
