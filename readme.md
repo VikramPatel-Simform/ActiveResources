@@ -19,12 +19,12 @@ AWS_SESSION_TOKEN=your_session_token  # optional
 
 ⚙️ How It Works
 🔍 Step 1: Discover Active Resources
-```
+```bash
 python get_active_resources.py
 ```
 
 👤 Step 2: Enrich With Usernames
 
-```
+```bash
 python enrich_with_usernames.py
 ```
